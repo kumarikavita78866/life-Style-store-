@@ -1,0 +1,13 @@
+.con{
+    
+    margin-top: 50px;
+    padding: 20px;
+}
+footer{
+    position: relative;
+    padding: 10px 0;
+    background-color: #101010;
+    color:#9d9d9d;
+    bottom: 0;
+    width: 100%;}
+    

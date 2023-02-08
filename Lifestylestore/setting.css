@@ -1,0 +1,10 @@
+.con{
+    padding-top: 100px;
+ }footer{
+     position: fixed;
+     padding: 10px 0;
+     background-color: #101010;
+     color:#9d9d9d;
+     bottom: 0;
+     width: 100%;
+ }

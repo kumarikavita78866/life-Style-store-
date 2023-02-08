@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Products page</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="products.css">
+  </head>
+  <body>
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+        <div class="container">
+              <a class="navbar-brand " href="index.html">
+                 Lifestyle Store
+              </a>
+          
+             <div class="collapse navbar-collapse" id="collapsibleNavId">
+             
+                 <ul class="nav navbar-nav  ml-auto ">
+                    
+                     <li class="nav-item active  ">
+                           <a class="nav-link" href="cart.html">
+                            <i class="bi bi-cart3"></i>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
+                                <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                              </svg>
+                               Cart<span class="sr-only">(current)</span>
+                           </a>
+                     </li>
+                     <li class="nav-item active ">
+                         <a class="nav-link" href="setting.html">
+                            <i class="bi bi-person"></i>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                                <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>
+                              </svg>
+                             Settings
+                         </a>
+                     </li>
+                     <li class="nav-item active ">
+                        <a class="nav-link" href="logout.html">
+                            <i class="bi bi-box-arrow-right"></i>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M10 12.5a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v2a.5.5 0 0 0 1 0v-2A1.5 1.5 0 0 0 9.5 2h-8A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-2a.5.5 0 0 0-1 0v2z"/>
+                                <path fill-rule="evenodd" d="M15.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L14.293 7.5H5.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"/>
+                              </svg>
+                            Logout
+                        </a>
+                    </li>
+                 </ul>
+              </div>
+         </div>              
+    </nav>
+    <div class="container con">
+        <div class="jumbotron">
+            <h1 class="display-3">Welcome to our Lifestyle Store!</h1>
+            <p class="lead">We have the best cameras, watches and shirts for you. No need to hunt around, we have all in one place.</p>
+        </div>
+        <div class="row text-center">
+               <div class=" col-md-3 col-sm-6 ">
+                   <div>
+                       <img src="5.jpg" class="img-thumbnail" alt="Responsive image">
+                       <caption>
+                           <h3>Cannon EOS</h3>
+                           <p>Price: Rs.36000.00</p>
+                       </caption>
+                       <button type="button" name="r1button1" id="r1button1" class="btn btn-primary btn-lg btn-block">Add to cart</button>
+                   </div>
+               </div>
+               <div class="col-md-3 col-sm-6">
+                    <div>
+                        <img src="2.jpg" class="img-thumbnail" alt="Responsive image">
+                        <caption>
+                           <h3>Sony DSLR</h3>
+                           <p>Price: Rs.40000.00</p>
+                        </caption>
+                        <button type="button" name="r1button2" id="r1button2" class="btn btn-primary btn-lg btn-block">Add to cart</button>
+                    </div>
+               </div>
+               <div class="col-md-3 col-sm-6">
+                  <div>
+                    <img src="3.jpg" class="img-thumbnail" alt="Responsive image">
+                    <caption>
+                       <h3>Sony DSLR</h3>
+                       <p>Price: Rs.50000.00</p>
+                    </caption>
+                    <button type="button" name="r1button3" id="r1button3" class="btn btn-primary btn-lg btn-block">Add to cart</button>
+                  </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div>
+                        <img src="4.jpg" class="img-thumbnail" alt="Responsive image">
+                        <caption>
+                           <h3>Olympus DSLR</h3>
+                           <p>Price: Rs.80000.00</p>
+                        </caption>
+                        <button type="button" name="r1button4" id="r1button4" class="btn btn-primary btn-lg btn-block">Add to cart</button>
+                    </div>
+               </div>
+        </div>
+        <div class="row text-center ro">
+            <div class=" col-md-3 col-sm-6 ">
+                <div>
+                    <img src="9.jpg" class="img-thumbnail" alt="Responsive image">
+                    <caption>
+                        <h3>Titan  Model#301</h3>
+                        <p>Price: Rs.13000.00</p>
+                    </caption>
+                    <button type="button" name="r2button1" id="r2button1" class="btn btn-primary btn-lg btn-block">Add to cart</button>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                 <div>
+                     <img src="10.jpg" class="img-thumbnail" alt="Responsive image">
+                     <caption>
+                        <h3>Titan Model#201</h3>
+                        <p>Price: Rs.3000.00</p>
+                     </caption>
+                     <button type="button" name="r2button2" id="r2button2" class="btn btn-primary btn-lg btn-block">Add to cart</button>
+                 </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+               <div>
+                 <img src="11.jpg" class="img-thumbnail" alt="Responsive image">
+                 <caption>
+                    <h3>HMT Milan</h3>
+                    <p>Price: Rs.8000.00</p>
+                 </caption>
+                 <button type="button" name="r2button3" id="r2button3" class="btn btn-primary btn-lg btn-block">Add to cart</button>
+               </div>
+             </div>
+             <div class="col-md-3 col-sm-6">
+                 <div>
+                     <img src="12.jpg" class="img-thumbnail" alt="Responsive image">
+                     <caption>
+                        <h3>Faber Luba#111</h3>
+                        <p>Price: Rs.18000.00</p>
+                     </caption>
+                     <button type="button" name="r2button4" id="r2button4" class="btn btn-primary btn-lg btn-block">Add to cart</button>
+                 </div>
+            </div>
+       </div>
+       <div class="row text-center">
+        <div class=" col-md-3 col-sm-6 ">
+            <div>
+                <img src="new8.jpg" class="img-thumbnail" alt="Responsive image">
+                <caption>
+                    <h3>H&W</h3>
+                    <p>Price: Rs.800.00</p>
+                </caption>
+                <button type="button" name="r3button1" id="r3button1" class="btn btn-primary btn-lg btn-block">Add to cart</button>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+             <div>
+                 <img src="6.jpg" class="img-thumbnail" alt="Responsive image">
+                 <caption>
+                    <h3>Luis Phil</h3>
+                    <p>Price: Rs.1000.00</p>
+                 </caption>
+                 <button type="button" name="r3button2" id="r3button2" class="btn btn-primary btn-lg btn-block">Add to cart</button>
+             </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+           <div>
+             <img src="13.jpg" class="img-thumbnail" alt="Responsive image">
+             <caption>
+                <h3>John Zok</h3>
+                <p>Price: Rs.1500.00</p>
+             </caption>
+             <button type="button" name="r3button3" id="r3button3" class="btn btn-primary btn-lg btn-block">Add to cart</button>
+           </div>
+         </div>
+         <div class="col-md-3 col-sm-6">
+             <div>
+                 <img src="14.jpg" class="img-thumbnail" alt="Responsive image">
+                 <caption>
+                    <h3>Jhalsani</h3>
+                    <p>Price: Rs.1300.00</p>
+                 </caption>
+                 <button type="button" name="r3button4" id="r3button4" class="btn btn-primary btn-lg btn-block">Add to cart</button>
+             </div>
+        </div>
+       </div>
+    </div>
+    <footer>
+        <div class="container">
+          <p style="text-align: center;">Copyright © Lifestyle Store. All Rights  Reserved ​| ​Contact Us: +91 90000 00000</p>
+        </div>
+      </footer>
+  </body>
+</html>
